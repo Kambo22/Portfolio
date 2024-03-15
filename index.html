@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="img/logo-no-background.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <section id="about" data-aos="fade-down">
+        <nav id="nav2">
+            <a class="logo2" href="#header">
+                <img src="img/logo-no-background.png" alt="logo2"/>
+            </a>
+        </nav>
+       
+        
+        <div class="about-text" data-aos="fade-up">
+            <h2><span>WELCOME</span><span> TO MY</span><span> PORTFOLIO</span></h2>
+            <p>
+               Here you will be able to get to know me, see my projects and discover my expertise.
+            </p>
+            <a class="header-btn" href="#home">See More</a>
+        </div>
+        <div class="about-img">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.63/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/RwJ6YqrSUpeN-v2u/scene.splinecode"></spline-viewer>
+       </div>
+
+    </section>
+    
+    <main>
+        <section id="home">
+            <div class="home-text">
+                <span class="span">Front-end/Researcher</span>
+                <h1 class="h1">Aleksandar Nikolov</h1>
+                <p> 
+                    I am an international student from Bulgaria, currently pursuing a specialization in Media within the ICT program at Fontys Hogeschool. 
+                    I am dedicated to Delivering the best products possible and doing my best to developing and bettering my professional self
+                 </p>
+                 <aside class="share">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                </aside>
+            </div>
+            <div class="home-img">
+                <figure class="hero-pic">
+                    <img src="img\IMG_20240220_135907_101.jpg" alt="portrait">
+                </figure>
+            </div>
+            
+            <figure class="transition">
+                <img src="img/Backgound_img.webp" alt="">
+            </figure>
+
+        </section>
+        
+    </main>
+
+    <section class="work" id="work">
+        <div class="work-container">
+            <h1>Learning Outcomes</h1>
+            <div class="row">
+                <article class="requirement" data-aos="fade-right">
+                    <i class="bx bxs-color"></i>
+                    <h2>Interactive Media</h2>
+                    <p>Learn more about my ventures in the world of UX design</p>
+                    <a href="Learning1.html" class="btn">Read more</a>
+                </article>
+                <article class="requirement" data-aos="fade-down">
+                    <i class="bx bx-package"></i>
+                    <h2>Development</h2>
+                    <p>My journey into the world of programming. Tools, challenges and solutions.</p>
+                    <a href="Learning2.html" class="btn">Read more</a>
+                </article>
+                <article class="requirement" data-aos="fade-left">
+                    <i class="bx bx-paint"></i>
+                    <h2>Design</h2>
+                    <p>Creating visual masterpieces with the help of different techniques and tools</p>
+                    <a href="Learning3.html" class="btn">Read more</a>
+                </article>
+                <article class="requirement" data-aos="fade-right">
+                    <i class="bx bx-search-alt-2"></i>
+                    <h2>Research</h2>
+                    <p>How curiosity can be used for my growth as a Person and as a Proffesional</p>
+                    <a href="Learning4.html" class="btn">Read more</a>
+                </article>
+                <article class="requirement" data-aos="fade-up">
+                    <i class="bx bx-message-rounded-dots"></i>
+                    <h2>Communication</h2>
+                    <p>How is communication with our stakeholders and clients handled</p>
+                    <a href="Learning5.html" class="btn">Read more</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+
+    <section id="contact">
+        <div class="work-heading">
+            <h1>Contact Me</h1>
+            <p>You can ask me questions here</p>
+        </div>
+        <form action="https://formsubmit.co/577ed68bc2e231ecee3746586eb6f217" method="POST">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
